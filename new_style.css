@@ -1,0 +1,94 @@
+.postion{
+    margin-left: 112px;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+.header_log{
+    padding-top: 30px;
+    padding-left: 113px;
+}
+.nav_menu{
+    padding-right: 500px;
+}
+.nav_menu li {
+    padding-top: 30px;
+    padding-right: 24px;
+}
+
+
+/* nav section*/
+.nav_menu ul li{
+    display: inline;
+}
+.nav_menu ul li a{
+    text-decoration: none;
+}
+.nav_items{
+    display: flex;
+    justify-content: space-between;
+}
+.header_section
+{
+
+    width: 100%;
+    height: 100vh;
+    background-image                    : url("Background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.lelf_header_content h1 {
+    padding-top: 168px;
+    width: 648px;
+    height: 144px;
+    padding-left: 112px;
+    font-weight: 700;
+    font-size: 60px;
+}
+.lelf_header_content .P_text
+{
+    padding-left: 112px;
+    position: static;
+    width: 648px;
+    height: 56px;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #374151;
+}
+.header_buttons{
+    padding-top: 32px;
+    padding-left: 112px;
+    position: static;
+}
+
+.header_buttons button {
+    height: 56px;
+    width: 138px;
+    background-color: #7C3AED;
+    color: #ffffff;
+    border-radius: 8px;
+}
+.header_buttons button span
+{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.right_header_content{
+    padding:111px 216px 90px 184px ;
+
+}
+
+

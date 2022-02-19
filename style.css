@@ -1,0 +1,135 @@
+
+.nav_menu ul li{
+    display: inline;
+    
+
+}
+.nav_menu ul li a{
+    text-decoration: none;
+}
+.nav_item{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_container{
+    background-image: url('images/Head_section/background/Background (1).png');
+    width: 100%;
+}
+
+
+.header_menu{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+/* .head_section{
+    display: fecc;
+    background-image: url('images/Head_section/background/Background (1).png');
+    background-repeat: no-repeat;
+}
+.nav_item{
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+.logo{
+    display: flex; 
+}
+.nav_menu li{
+    display: inline;
+}
+.header_content{
+   padding: 1em; 
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.phone_image{
+    margin-top: 111px;
+    margin-left: 20.84px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+} */
+
+
+
+
+/* client banner */
+.cl_images{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding-top: 39.98px;
+    padding-bottom: 40px; 
+}
+.image{
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+/* made feature */
+.made_feature_heading{
+    text-align: center;
+}
+.made_feature_items{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    text-align: center;
+}
+
+/* stoires section */
+.real_stories{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.card_comma{
+    width: 15.93px;
+    height: 13px;
+}
+.stories_heading{
+    background-color: blue;
+    margin-top: 112px;
+    margin-left: 216px;
+    margin-bottom: 156px;
+}
+
+.card_one{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left:1px ;
+    margin-right: 1px;
+    width: 384px;
+    height: 396px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.card_two{
+    margin-top: 1px;
+    margin-left: 320px;
+    margin-top: 64px;
+    margin-bottom: 156px;
+    border: 1px solid black;
+    width: 488px;
+    height: 312px;
+    border-radius: 8px;
+}
+
+.card_three{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    border: 1px solid black;
+    width: 384px;
+    height: 256px;
+    border-radius: 8px;
+}
+
